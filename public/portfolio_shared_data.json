@@ -7,6 +7,11 @@
           "name": "github",
           "url": "https://github.com/marcusoyh",
           "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/marcus-ong-76a6ba153",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"

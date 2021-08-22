@@ -32,7 +32,7 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div style={{width: '30%', display:'flex', justifyContent: 'center'}}key={i} data-src={elem} />;
+            return <div key={i} data-src={elem} />;
           });
         }
       }
@@ -74,8 +74,7 @@ class ProjectDetailsModal extends Component {
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
-              style={{display: 'flex', justifyContent: 'center'}}
-            >
+              >
               {img}
             </AwesomeSlider>
           </div>
