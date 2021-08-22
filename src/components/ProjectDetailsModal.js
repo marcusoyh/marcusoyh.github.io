@@ -7,6 +7,7 @@ import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
+      const theme = document.body.getAttribute("data-theme") //dark or light
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
       var title = this.props.data.title;
@@ -14,11 +15,12 @@ class ProjectDetailsModal extends Component {
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
+          const iconClass = theme === 'dark' ? icons.darkClass : icons.lightClass;
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
+                  <i className={iconClass} style={{ fontSize: "300%" }}>
                     <p className="text-center" style={{ fontSize: "30%" }}>
                       {icons.name}
                     </p>
@@ -30,7 +32,7 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
+            return <div style={{width: '30%', display:'flex', justifyContent: 'center'}}key={i} data-src={elem} />;
           });
         }
       }
@@ -72,6 +74,7 @@ class ProjectDetailsModal extends Component {
               cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
+              style={{display: 'flex', justifyContent: 'center'}}
             >
               {img}
             </AwesomeSlider>
