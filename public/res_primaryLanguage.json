@@ -103,8 +103,8 @@
             "name": "JavaScript"
           },
           {
-            "lightClass": "devicon-firebase-plain-wordmark colored",
-            "darkClass": "devicon-firebase-plain-wordmark",
+            "lightClass": "devicon-firebase-plain colored",
+            "darkClass": "devicon-firebase-plain",
             "name": "Firebase"
           }
         ]

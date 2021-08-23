@@ -59,6 +59,21 @@
           "level": "65"
         },
         {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "60"
+        },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain",
+          "level": "60"
+        },
+        {
+          "level": "60",
+          "class": "devicon-spring-plain ",
+          "name": "Spring Boot"
+        },
+        {
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"

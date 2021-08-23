@@ -4,6 +4,8 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+// @import url("cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css")
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
