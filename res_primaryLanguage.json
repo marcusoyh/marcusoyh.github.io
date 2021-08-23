@@ -1,0 +1,159 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I am a final-year Information Systems student with NUS, aspiring to be a Software Engineer when I graduate. I have developed a few projects, and am currently working as a freelance React Native developer in my free time. I also play and watch basketball as a hobby!",      
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "EventStop",
+        "startDate": "2021",
+        "description": "EventStop was created as an Event Management System, an efficient platform to facilitate interaction between Event Organisers, their Business Partners, and Attendees. Event Organizers are able to list any new events on the platform, and sell tickets straight to attendees.",
+        "images": [
+          "https://i.imgur.com/EkZuVpY.jpg",
+          "https://i.imgur.com/cxMc1es.jpg",
+          "https://i.imgur.com/u3jm2pI.jpg",
+          "https://i.imgur.com/hdFEXME.jpg",
+          "https://i.imgur.com/QrVEtpq.jpg"
+        ],
+        "technologies": [
+          {
+            "lightClass": "devicon-react-original colored",
+            "darkClass": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "lightClass": "devicon-javascript-plain colored",
+            "darkClass": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "lightClass": "devicon-java-plain colored",
+            "darkClass": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "lightClass": "devicon-spring-plain colored",
+            "darkClass": "devicon-spring-plain",
+            "name": "Spring Boot"
+          },
+          {
+            "lightClass": "devicon-mysql-plain colored",
+            "darkClass": "devicon-mysql-plain",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "Subscribify",
+        "startDate": "2020",
+        "description": "Subscribify is a subscription marketplace, where customers can subscribe to any products listed on the platform by merchants. Merchants can also easily list any products.",
+        "images": [
+          "https://i.imgur.com/KLtgaGg.jpg",
+          "https://i.imgur.com/QwZedGa.jpg",
+          "https://i.imgur.com/WfQn3ai.jpg",
+          "https://i.imgur.com/RsYPOzp.jpg"
+        ],
+        "technologies": [
+          {
+            "lightClass": "devicon-angularjs-plain colored",
+            "darkClass": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "lightClass": "devicon-typescript-plain colored",
+            "darkClass": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "lightClass": "devicon-java-plain colored",
+            "darkClass": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "lightClass": "devicon-mysql-plain colored",
+            "darkClass": "devicon-mysql-plain",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "MarketMate",
+        "startDate": "2020",
+        "description": "MarketMate is a simple mobile application for users to record shopping lists, tied to individual accounts. Quantity can be indicated for each item on the list, and items can be checked off once picked up.",
+        "images": [
+          "https://i.imgur.com/zjp5eZX.jpg",
+          "https://i.imgur.com/8M1v4Gd.jpg",
+          "https://i.imgur.com/RXSuU3y.jpg",
+          "https://i.imgur.com/cXSljJe.jpg"
+        ],
+        "technologies": [
+          {
+            "lightClass": "devicon-react-original colored",
+            "darkClass": "devicon-react-original",
+            "name": "React Native"
+          },
+          {
+            "lightClass": "devicon-javascript-plain colored",
+            "darkClass": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "lightClass": "devicon-firebase-plain colored",
+            "darkClass": "devicon-firebase-plain",
+            "name": "Firebase"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Flymya Tech",
+        "class": "fab fa-react experience-icon",
+        "title": "Freelance Software Engineer",
+        "years": "06.2021 - Present",
+        "mainTech": [
+          "React Native"
+        ],
+        "technologies": [
+          "React Native",
+          "JavaScript"
+        ]
+      },
+      {
+        "company": "SAP SE",
+        "class": "fas fa-mobile experience-icon",
+        "title": "Software Engineer Intern",
+        "years": "05.2021 - present",
+        "mainTech": [
+          "Mobile Development"
+        ],
+        "technologies": [
+          "NativeScript",
+          "TypeScript",
+          "iOS",
+          "Java"
+        ]
+      },
+      {
+        "company": "WorkClass",
+        "class": "fab fa-react experience-icon",
+        "title": "Software Engineer Intern",
+        "years": "11.2020 - 02.2021",
+        "mainTech": [
+          "React Native"
+        ],
+        "technologies": [
+          "React Native",
+          "TypeScript",
+          "Django",
+          "Python"
+        ]
+      }
+    ]
+  }

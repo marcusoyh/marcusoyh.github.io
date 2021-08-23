@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/marcusoyh.github.io/static/css/main.40f0e6cc.chunk.css",
+    "main.js": "/marcusoyh.github.io/static/js/main.d023e525.chunk.js",
+    "main.js.map": "/marcusoyh.github.io/static/js/main.d023e525.chunk.js.map",
+    "runtime-main.js": "/marcusoyh.github.io/static/js/runtime-main.74bec50f.js",
+    "runtime-main.js.map": "/marcusoyh.github.io/static/js/runtime-main.74bec50f.js.map",
+    "static/css/2.d64471e2.chunk.css": "/marcusoyh.github.io/static/css/2.d64471e2.chunk.css",
+    "static/js/2.67e1f4d1.chunk.js": "/marcusoyh.github.io/static/js/2.67e1f4d1.chunk.js",
+    "static/js/2.67e1f4d1.chunk.js.map": "/marcusoyh.github.io/static/js/2.67e1f4d1.chunk.js.map",
+    "index.html": "/marcusoyh.github.io/index.html",
+    "precache-manifest.7579520836dd1000361919697ed6d557.js": "/marcusoyh.github.io/precache-manifest.7579520836dd1000361919697ed6d557.js",
+    "service-worker.js": "/marcusoyh.github.io/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/marcusoyh.github.io/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.40f0e6cc.chunk.css.map": "/marcusoyh.github.io/static/css/main.40f0e6cc.chunk.css.map",
+    "static/js/2.67e1f4d1.chunk.js.LICENSE.txt": "/marcusoyh.github.io/static/js/2.67e1f4d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74bec50f.js",
+    "static/css/2.d64471e2.chunk.css",
+    "static/js/2.67e1f4d1.chunk.js",
+    "static/css/main.40f0e6cc.chunk.css",
+    "static/js/main.d023e525.chunk.js"
+  ]
+}
