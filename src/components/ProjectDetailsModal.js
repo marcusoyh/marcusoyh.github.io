@@ -11,8 +11,9 @@ class ProjectDetailsModal extends Component {
     if (this.props.data) {
       const theme = document.body.getAttribute("data-theme") //dark or light
       const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
+      let images = this.props.data.images;
       var title = this.props.data.title;
+      if (title === 'MarketMate'|| title === 'EventStop') images = images.slice(1);
       var description = this.props.data.description;
       var url = this.props.data.url;
       if (this.props.data.technologies) {
